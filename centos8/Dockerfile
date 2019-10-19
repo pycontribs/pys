@@ -2,7 +2,7 @@ FROM centos:8
 LABEL maintainer "PyContribs <pycontribs@googlegroups.com>"
 
 RUN \
-    yum update \
-    yum install -y python3
+    yum update -y && \
+    yum install -y gcc openssl-devel python3 python3-libselinux python3-devel
 
 ENV SHELL /bin/bash
