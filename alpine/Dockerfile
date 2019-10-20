@@ -2,7 +2,6 @@ FROM alpine:latest
 LABEL maintainer "PyContribs <pycontribs@googlegroups.com>"
 
 RUN \
-    apk add python3 && \
-    ln -s /usr/bin/python3 /usr/bin/python
+    apk add python3 sudo
 
 ENV SHELL /bin/bash
