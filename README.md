@@ -12,6 +12,7 @@ Inclusions
 * gcc
 * python headers
 * openssl headers
+* sudo
 
 Use cases
 =========
