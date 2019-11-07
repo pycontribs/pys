@@ -10,6 +10,7 @@ Inclusions
 * pip
 * selinux python bindings (Red Hat systems)
 * gcc
+* git
 * python headers
 * openssl headers
 * sudo

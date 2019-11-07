@@ -5,6 +5,6 @@ RUN \
     echo "skip_missing_names_on_install=False" >> /etc/yum.conf && \
     yum update -y && \
     yum install -y epel-release && \
-    yum install -y gcc python python-devel python-pip openssl-devel libselinux-python sudo
+    yum install -y gcc git python python-devel python-pip openssl-devel libselinux-python sudo
 
 ENV SHELL /bin/bash
