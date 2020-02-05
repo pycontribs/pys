@@ -1,0 +1,20 @@
+language: generic
+dist: xenial
+cache: false
+services:
+  - docker
+git:
+  depth: false
+
+before_script:
+  - docker info
+
+script: make --debug=j build
+
+notifications:
+  irc:
+    channels:
+      - "chat.freenode.net#pycontribs"
+    on_success: change
+    on_failure: change
+    skip_join: true
