@@ -2,9 +2,9 @@
 .PHONY: build
 
 build:
-	docker build alpine/.
-	docker build centos7/.
-	docker build centos8/.
-	docker build debian/.
-	docker build opensuse/.
-	docker build ubuntu/.
+	docker build --network=host alpine/.
+	docker build --network=host centos7/.
+	docker build --network=host centos8/.
+	docker build --network=host debian/.
+	docker build --network=host opensuse/.
+	docker build --network=host ubuntu/.
