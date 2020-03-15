@@ -10,6 +10,8 @@ cookiecutter \
 git \
 iproute2 \
 python3 \
+python3-Cerberus \
+python3-PyYAML \
 python3-Sphinx \
 python3-Sphinx-latex \
 python3-arrow \
@@ -38,8 +40,6 @@ python3-libvirt-python \
 python3-lxml \
 python3-monotonic \
 python3-nodeenv \
-python3-openstackclient \
-python3-openstacksdk \
 python3-paramiko \
 python3-pathspec \
 python3-pexpect \
@@ -50,10 +50,9 @@ python3-poyo \
 python3-pre-commit \
 python3-pytest-sphinx \
 python3-python-dateutil \
-python3-python3-Cerberus \
-python3-pyyaml \
 python3-readthedocs-sphinx-ext \
 python3-requests \
+python3-selinux \
 python3-sh \
 python3-six \
 python3-sphinx-bootstrap-theme \
